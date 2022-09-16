@@ -7,6 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+
+## Cloning laravel project from github :
+
+Instructions :
+
+- 1.Run git clone 'link projer github'
+- 2.Run composer install
+- 3.Run cp .env.example .env or copy .env.example .env
+- 4.Run php artisan key:generate
+- 5.Run php artisan migrate
+- 6.Run php artisan db:seed
+- 7.Run php artisan serve
+- 8.Go to link localhost:8000 OR 127.0.0.1:8000
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
